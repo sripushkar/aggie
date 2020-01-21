@@ -75,6 +75,9 @@ Contact mikeb@cc.gatech.edu for more information on the Aggie project.
 ## Source Installation
 
 ### System requirements
+**OS Requirements**
+
+-Due to the older node.js version, this build does not work on recent MacOS versions as of January 2019. The build does work on Linux and Windows 10.
 
 The following need to be installed.
 
