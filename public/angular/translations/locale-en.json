@@ -338,6 +338,7 @@
     "rss_url": "The URL of the RSS feed, e.g. <strong>http://example.com/rss.xml</strong>",
     "tags": "Separated by commas, e.g. <strong>apple, passion fruit, banana</strong>",
     "facebook_url": "The URL of the Facebook page or group, e.g. <strong>https://www.facebook.com/i.love.cats.in</strong>",
+    "facebook_dashboard_key": "The Dashboard Key of the Facebook API, e.g. <strong>[Enter an example key here todo]</strong>",
     "elmo_url": "The URL of the ELMO instance, e.g. <strong>https://abc.getelmo.org</strong>",
     "whatsapp_help": "Check <a href=\"http://aggie.readthedocs.io/en/latest/content/settings/settings.html#whatsapp_messages\">Aggie documentation</a> for instructions on how to set the keyword and WhatsApp forwarding in Firefox"
   },
