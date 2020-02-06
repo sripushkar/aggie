@@ -34,7 +34,7 @@
             <button type="submit" class="btn btn-info" ng-click="search()" translate>Go</button>
           </div>
         </div>
-        <button onclick="exportTableToCSV('reports.csv')"> Download Page as CSV </button>
+        <button onclick="exportTableToCSV('aggie_reports: ')"> Download Page as CSV </button>
 
         <script type="text/javascript">
         function downloadCSV(csv, filename) {
@@ -48,7 +48,7 @@
             downloadLink = document.createElement("a");
 
             // File name
-            downloadLink.download = filename;
+            downloadLink.download = filename + Date();
 
             // Create a link to the file
             downloadLink.href = window.URL.createObjectURL(csvFile);
